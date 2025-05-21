@@ -1,0 +1,6 @@
+{
+    "model_name_or_path": "meta-llama/Llama-3.2-1B-Instruct",
+    "use_simple_prompt": false,
+    "blind_context": true,
+    "load_dtype": "auto"
+}

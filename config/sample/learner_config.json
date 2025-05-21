@@ -1,0 +1,7 @@
+{
+    "base_model_name_or_path": "meta-llama/Llama-3.2-1B-Instruct",
+    "init_alpha": 1e-2,
+    "alpha_mode": "tie",
+    "use_simple_prompt": false,
+    "load_dtype": "auto"
+}

@@ -1,0 +1,7 @@
+torch==2.0.1
+transformers==4.45.2
+accelerate==1.1.1
+peft==0.14.0
+tqdm
+numpy
+ujson

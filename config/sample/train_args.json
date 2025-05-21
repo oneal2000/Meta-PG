@@ -1,0 +1,15 @@
+{
+    "meta_batch_size": 16,
+    "meta_lr": 4e-4,
+    "num_epochs": 1,
+    "logging_steps": 100,
+    "eval_steps": 1000,
+    "do_eval": true,
+    "save_best": true,
+    "num_samples_for_eval": 1000,
+    "lr_scheduler": "LinearLR",
+    "max_context_len": 1536,
+    "train_with_only_related": false,
+    "eval_with_only_related": false,
+    "mixed_precision": "bf16"
+}

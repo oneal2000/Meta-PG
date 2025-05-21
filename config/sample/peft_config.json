@@ -1,0 +1,31 @@
+{
+    "peft_type": "LORA",
+    "r": 16,
+    "lora_alpha": 32,
+    "target_modules": [
+        "model.layers.8.mlp.gate_proj",
+        "model.layers.8.mlp.up_proj",
+        "model.layers.8.mlp.down_proj",
+        "model.layers.9.mlp.gate_proj",
+        "model.layers.9.mlp.up_proj",
+        "model.layers.9.mlp.down_proj",
+        "model.layers.10.mlp.gate_proj",
+        "model.layers.10.mlp.up_proj",
+        "model.layers.10.mlp.down_proj",
+        "model.layers.11.mlp.gate_proj",
+        "model.layers.11.mlp.up_proj",
+        "model.layers.11.mlp.down_proj",
+        "model.layers.12.mlp.gate_proj",
+        "model.layers.12.mlp.up_proj",
+        "model.layers.12.mlp.down_proj",
+        "model.layers.13.mlp.gate_proj",
+        "model.layers.13.mlp.up_proj",
+        "model.layers.13.mlp.down_proj",
+        "model.layers.14.mlp.gate_proj",
+        "model.layers.14.mlp.up_proj",
+        "model.layers.14.mlp.down_proj",
+        "model.layers.15.mlp.gate_proj",
+        "model.layers.15.mlp.up_proj",
+        "model.layers.15.mlp.down_proj"
+    ]
+}
